@@ -1,6 +1,6 @@
 # todo_with_jjaeni
 
-A new Flutter project.
+A new Flutter toy project. (Ongoing)
 
 ## Getting Started
 
