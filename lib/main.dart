@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'login_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,9 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context){
     return MaterialApp(
       title: 'Main Page', //Devide to system level
-      home: Scaffold(
-        backgroundColor: Colors.pink,
-      )
+      home: LoginPage()
     );
   }
 }
