@@ -17,7 +17,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context){
     return MaterialApp(
       title: 'Main Page', //Devide to system level
-      home: LoginPage()
+      debugShowCheckedModeBanner: false,
+      home: LoginPage(),
     );
   }
 }
