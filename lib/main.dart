@@ -7,7 +7,7 @@ void main() {
 // void main() is start point of Dart.
 // runApp() can input Widget only.
 // MyApp() is the root of your application.
-// Widget: Flutter 화면의 최소 단위
+// Widget: The smallest unit of a Flutter screen
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
