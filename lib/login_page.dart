@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:todo_with_jjaeni/home_page.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -8,6 +9,25 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
+
+  // id/pw Controller
+  final TextEditingController idController = TextEditingController();
+  final TextEditingController pwController = TextEditingController();
+
+  void _login() {
+    final id = idController.text;
+    final pw = pwController.text;
+
+  // Temporary logic of login (will change temporary login to DB/API)
+  if (id == 'test' && pw == '1234') {
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => const HomePage()),
+    );
+  } else {
+    // Will update soon.
+  }
+  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
